@@ -30,7 +30,7 @@ public class From1Activity extends AppCompatActivity {
         public void onClick(View view) {
         editText = (EditText) findViewById(R.id.edit_txt);
         String name = String.valueOf(editText.getText());
-        String Kq = " Chào " + name;
+        String Kq = " Chà " + name;
         Toast.makeText(getApplicationContext(),Kq,Toast.LENGTH_LONG).show();
         }
     });
